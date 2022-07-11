@@ -5,18 +5,18 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setuptools.setup(
-    name='mullaneywt-test_pkg_a',
+    name='mullaneywt_test_pkg_a',
     version='0.0.1',
     author='Will Mullaney',
     author_email='will.mullaney@gmail.com',
     description='Testing installation of Package',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/mullaneywt/test_pkg_a',
+    url='https://github.com/mullaneywt/mullaney-testpkg-a',
     project_urls = {
-        "Bug Tracker": "https://github.com/mullaneywt/test_pkg_a/issues"
+        "Bug Tracker": "https://github.com/mullaneywt/mullaney-testpkg-a/issues"
     },
     license='MIT',
-    packages=['test_pkg_a'],
+    packages=['mullaney_testpkg_a'],
     install_requires=['netaddr'],
 )
