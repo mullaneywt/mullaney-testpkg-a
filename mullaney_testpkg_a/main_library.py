@@ -1,13 +1,16 @@
 from netaddr import IPAddress, IPNetwork
 
+
 def add2(number):
-    return number+2
+    return number + 2
+
 
 def square(number):
     return number**2
 
-def is_rfc1918(address:str):
-    if not isinstance(address,str):
+
+def is_rfc1918(address: str):
+    if not isinstance(address, str):
         raise TypeError
 
     IP = IPAddress(address)
