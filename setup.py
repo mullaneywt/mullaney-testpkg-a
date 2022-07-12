@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setuptools.setup(
-    name='mullaneywt_test_pkg_a',
+    name='mullaneywt_testpkg_a',
     version='0.0.1',
     author='Will Mullaney',
     author_email='will.mullaney@gmail.com',
