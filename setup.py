@@ -1,11 +1,11 @@
-import setuptools
+gimport setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 
 setuptools.setup(
-    name='mullaneywt_testpkg_a',
+    name='mullaney_testpkg_a',
     version='0.0.1',
     author='Will Mullaney',
     author_email='will.mullaney@gmail.com',
